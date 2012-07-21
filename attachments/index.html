@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8"/>
-  <title>Open211 Social Services Directory</title>
+  <title>Early Alameda Social Services Directory</title>
   <link rel="stylesheet" href="style/css3buttons.css" media="screen" />
   <link href="style/layout.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="style/leaflet.css" />
@@ -44,22 +44,24 @@
     </div>
   </div>
   <div id="container" class="container_12">
-    <div id="page_header">
-      <div id="header_content">
-        <div id="logo">
-        </div>
-        <nav id="header_nav" class="clearfix">
-          <ul id="main_nav" class="grid_12 alpha">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#cities">Cities</a></li>
-            <li><a href="#phone">SMS</a></li>
-            <li><a href="#getinvolved">Get Involved</a></li>
-            <li><a href="#upload">Upload</a></li>
-            <li><a href="#developers">Developers</a></li>
-          </ul>
-        </nav>
+      <div id="page_header">
+          <div id="header_content">
+              <br/>
+              <h2>Early Alameda</h2>
+              <!--<div id="logo">
+              </div>-->
+              <nav id="header_nav" class="clearfix">
+              <ul id="main_nav" class="grid_12 alpha">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#cities">Map</a></li>
+                  <li><a href="#phone">SMS</a></li>
+                  <li><a href="#getinvolved">Get Involved</a></li>
+                  <li><a href="#login">Add/Edit Organization</a></li>
+                  <li><a href="#developers">Developers</a></li>
+              </ul>
+              </nav>
+          </div>
       </div>
-    </div>
     <div id="main" role="main">
       <div id="main_content">
       </div>
@@ -82,16 +84,16 @@
           <h4>Getting Involved</h4>
           <p>Getting involved is easy &ndash; first check and see if your city is participating by viewing our list of <a href="#cities">active cities</a>.
           </p>
-          <p>If your city is listed you can <a href="#upload">tell us about</a> services in your area so that we can add them to the directory. If your city isn't yet active you can learn how to <a href="#getinvolved">get your city listed in Redirectory</a></p>
+          <p>If your city is listed you can <a href="#login">tell us about</a> services in your area so that we can add them to the directory. If your city isn't yet active you can learn how to <a href="#getinvolved">get your city listed in Redirectory</a></p>
         </div>
         <div class="clear"></div>
         <nav id="footer_nav" class="grid_5 alpha">
           <ul id="footer_quick_nav">
             <li><a href="#home">Home</a></li>
-            <li><a href="#cities">Cities</a></li>
+            <li><a href="#cities">Map</a></li>
             <li><a href="#phone">SMS</a></li>
             <li><a href="#getinvolved">Get Involved</a></li>
-            <li><a href="#upload">Upload</a></li>
+            <li><a href="#login">Add/Edit Organization</a></li>
             <li><a href="#developers">Developers</a></li>
             <li><a href="#terms">Terms of Use</a></li>
           </ul>
@@ -125,7 +127,7 @@
         <h4>What you can do to help:</h4>
         <ol class="icon_list">
           <li>See if Open211 is active in your city <em>(<a href="#cities">view active cities</a>)</em></li>
-          <li>If it is, you can add or edit a social service in your city <em>(see <a href="#upload">see our upload form</a>)</em></li>
+          <li>If it is, you can add or edit a social service in your city <em>(see <a href="#login">see our upload form</a>)</em></li>
           <li>If your city isn't yet active you can learn how to add your city to Redirectory</li>
         </ol>
         <p></p>
@@ -134,7 +136,7 @@
       <div class="grid_4 omega">
         <h5>How it works</h5>
         <ul class="infoList">
-          <li><a href="#upload">Collect</a> contact information for social services and put it all in one place</li>
+          <li><a href="#login">Collect</a> contact information for social services and put it all in one place</li>
           <li>Make that information available for free to anyone through <a href="#phone">text message</a>, mobile phone or website</li>
           <li>Help the social service system work better by providing more accurate information to all</li>
         </ul>
@@ -247,11 +249,11 @@
       <p>We are trying to gather phone numbers, addresses, hours of operation and other details about every social service available in a city. The best way to help is to get the word out about Open211 or to help us gather information:</p>
       <a href="images/open211-notification-flags.pdf"><img id="notification-flag-download" src="images/open211-notification-download.png"></a>
       <ol class="icon_list">
-        <li>Do you have information about social services or programs in your area? <a href="#upload">Tell us</a> about programs in your community.</li>
+        <li>Do you have information about social services or programs in your area? <a href="#login">Tell us</a> about programs in your community.</li>
         <li><a href="images/open211-notification-flags.pdf">Download</a> and print out our notification flags and distribute them to your friends or coworkers.</li>
         <li>Are you a software developer? Learn how you can <a href="#developers">write a script</a> to import data.</li>
         <li>Give us feedback! We are trying to make this a useful tool for both employees of social programs and recipients of services.</li>
-        <li>Show this website to anyone that you know that works at a social program. They can use our <a href="#upload">intake form</a> to give us accurate information about when their social program is open, what the phone number is and other important details.</li>
+        <li>Show this website to anyone that you know that works at a social program. They can use our <a href="#login">intake form</a> to give us accurate information about when their social program is open, what the phone number is and other important details.</li>
       </ol>
       <a href="images/open211-notification-flags.pdf" id="submit_report_bt" class="png_bg">View and download the full PDF!</a>
     </div>
@@ -335,6 +337,11 @@
       <p>The Redirectory team reserves the right to edit or delete any content for any reason we deem appropriate. We reserve the right to disable the account of any user who repeatedly violates the terms of use. Participation in the content of this site is at your own risk. By submitting content or responding to a comment, you agree to be bound by these terms and agree that Redirectory retains the right to edit or remove any content.</p>
     </div>
   </script>
+
+  <script id="loginTemplate" type="text/mustache">
+      <h4 class="nmt">Login with an organization Facebook account to add or edit your organization data</h4>
+      <a href="#bulkUpload" id="submit_report_bt" class="">Login with Facebook</a>
+  </script>
   
   <script id="uploadTemplate" type="text/mustache">
     <div class="devseed alpha">
@@ -353,96 +360,290 @@
               <input type="hidden" name="type" value="single_upload">
               <div class="column-main">
                 <form action="#" accept-charset="UTF-8" method="post" id="upload-form" enctype="multipart/form-data">
-                  <div class="column-wrapper clear-block">
-                    <fieldset class="fieldset titled collapsible collapsed tao-processed">
-                      <legend><span class="fieldset-title"><a href="#fieldset" class="active">Organization Details</a></span></legend>
-                      <div class="fieldset-content clear-block ">
-                        <div class="form-item form-option" id="edit-name-wrapper">
-                          <label for="edit-menu-link-title">Name</label>
-                          <input type="text" maxlength="128" name="name" id="name" value="" class="form-text fluid persist"/>
-                          <div class="description">
-                            What is the name of this social service location? E.g. East Bay Job Center
-                          </div>
-                        </div>
-                        <div class="form-item form-option" id="edit-organization-wrapper">
-                          <label for="edit-menu-link-title">Organization</label>
-                          <input type="text" maxlength="128" name="organization" id="organization" value="" class="form-text fluid persist"/>
-                          <div class="description">
-                            What is the name of the organization that operates this social service location? E.g. Bay Area Job Training Inc.
-                          </div>
-                        </div>
-                      </div>
-                    </fieldset>
-                    <fieldset class="locationContainer fieldset titled collapsible collapsed tao-processed">
-                      <legend><span class="fieldset-title"><a href="#fieldset" class="active">Location</a></span></legend>
-                      <div class="fieldset-content map-fieldset clear-block ">
-                        <div class="inline-button-form-item form-item form-option" id="edit-revision-wrapper">
-                          <label for="edit-menu-link-title">Building Street Address</label>
-                          <input type="text" maxlength="128" name="address" id="address" value="" class="form-text fluid persist"/>
-                          <div class="description">
-                            What is the street address of the building that the social service resides in? e.g. 85 2nd St, San Francisco, CA
-                          </div>
-                        </div>
-                        <ul id="address-list" class="optionsMenu address-list" data-role="listview" data-inset="true" data-theme="c"></ul>
-                        <div class="inline-button-form-item form-item form-option" id="map-wrapper">
-                          <label for="edit-menu-link-title">Drag To Pinpoint Location</label>
-                          <div id="mapContainer"></div>
-                          <div class="crosshair">
-                            <div class="top"></div>
-                            <div class="right"></div>
-                            <div class="left"></div>
-                            <div class="bottom"></div>
-                          </div>
-                          <div class="description">
-                            Pinpoint the location as accurately as possible by dragging the map
-                          </div>
-                        </div>
-                      </div>
-                    </fieldset>                        
-                    <fieldset class="fieldset titled collapsible collapsed tao-processed">
-                      <legend><span class="fieldset-title"><a href="#fieldset" class="active">Location</a></span></legend>
-                      <div class="fieldset-content map-fieldset clear-block ">
-                      <div class="form-item form-item-labeled" id="edit-description-wrapper">
-                        <label for="edit-log">Description</label>
-                        <div class="resizable-textarea">
-                          <span>
-                            <textarea cols="72" rows="2" name="description" id="description" class="form-textarea resizable textarea-processed persist"></textarea>
-                          </span>
-                        </div>
-                        <div class="description">
-                          Please be as specific as possible in describing this organization, it's mission and any other relevant information.
-                        </div>
-                      </div>
-                      <div class="form-item form-item-labeled" id="edit-phone-wrapper">
-                        <label for="edit-menu-link-title">Phone Number</label>
-                        <input type="text" maxlength="128" name="phone" id="phone" value="" class="form-text fluid persist"/>
-                        <div class="description">
-                          What is the phone number for the front desk/main point of contact of this organization?
-                        </div>
-                      </div>
-                      <div class="form-item form-item-labeled" id="edit-hours-wrapper">
-                        <label for="edit-menu-link-title">Hours of Operation</label>
-                        <input type="text" maxlength="128" name="hours" id="hours" value="" class="form-text fluid persist"/>
-                        <div class="description">
-                          What days and hours is this organization open and available?
-                        </div>
-                      </div>
-                      <div class="form-item form-item-labeled" id="edit-website-wrapper">
-                        <label for="edit-menu-link-title">Website</label>
-                        <input type="text" maxlength="128" name="website" id="website" value="" class="form-text fluid persist"/>
-                        <div class="description">
-                          What is the website address for this organization?
-                        </div>
-                      </div>
-                      <div class="form-item form-item-labeled" id="edit-source-wrapper">
-                        <label for="edit-menu-link-title">Data Source</label>
-                        <input type="text" maxlength="128" name="source" id="source" value="" class="form-text fluid persist"/>
-                        <div class="description">
-                          Who should be credited for submitting this information? It is okay to list your own name (Note: this information will be public)
-                        </div>
-                      </div>
-                    </div>
-                    </fieldset>
+                    <div class="column-wrapper clear-block">
+
+
+                        <fieldset class="fieldset titled collapsible collapsed tao-processed">
+                            <legend><span class="fieldset-title"><a href="#fieldset" class="active">Program Details</a></span></legend>
+
+                            <div class="fieldset-content clear-block ">
+
+                                <div class="form-item form-option" id="edit-name-wrapper">
+                                    <label for="edit-menu-link-title">Program Name</label>
+                                    <input type="text" maxlength="128" name="name" id="name" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What is the name of this social service location? E.g. East Bay Job Center
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-service-type-wrapper">
+                                    <label for="edit-menu-link-title">Service Type</label>
+                                    <select type="text" maxlength="128" name="service-type" id="service-type" class="form-text fluid persist">
+                                        <option value="Case management">Case management</option>
+                                        <option value="Cash assistance">Cash assistance</option>
+                                        <option value="Developmental consultation">Developmental consultation</option>
+                                        <option value="Developmental playgroups">Developmental playgroups</option>
+                                        <option value="Early childhood mental health">Early childhood mental health</option>
+                                        <option value="Farmers market">Farmers market</option>
+                                        <option value="Financial assistance">Financial assistance</option>
+                                    </select>
+                                    <div class="description">
+                                        What type of social service is being provided?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-item-labeled" id="edit-program-description-wrapper">
+                                    <label for="edit-log">Program Description</label>
+                                    <div class="resizable-textarea">
+                                        <span>
+                                            <textarea cols="72" rows="2" name="program-description" id="program-description" class="form-textarea resizable textarea-processed persist"></textarea>
+                                        </span>
+                                    </div>
+                                    <div class="description">
+                                        Please be as specific as possible in describing this program, it's mission and any other relevant information.
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Youngest age</label>
+                                    <input type="text" maxlength="128" name="age-from" id="age-from" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What is the youngest age
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Oldest age</label>
+                                    <input type="text" maxlength="128" name="age-to" id="age-to" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What is the oldest age
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Languages served</label>
+                                    <input type="text" maxlength="128" name="languages" id="languages" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What are the languages that are spoken?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-cost-type-wrapper">
+                                    <label for="edit-menu-link-title">Cost Type</label>
+                                    <select type="text" maxlength="128" name="cost-type" id="cost-type" class="form-text fluid persist">
+                                        <option value="Set program fee">Set program fee</option>
+                                        <option value="No fee">No fee</option>
+                                        <option value="Sliding scale">Sliding scale</option>
+                                        <option value="Membership dues">Membership dues</option>
+                                        <option value="Suggested donation">Suggested donation</option>
+                                    </select>
+                                    <div class="description">
+                                        What type of cost structure is used?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Cost fee</label>
+                                    <input type="text" maxlength="128" name="cost" id="cost" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        How much does the program cost?
+                                    </div>
+                                </div>
+
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="fieldset titled collapsible collapsed tao-processed">
+                            <legend><span class="fieldset-title"><a href="#fieldset" class="active">Weekly schedule</a></span></legend>
+
+                            <div class="fieldset-content clear-block ">
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Monday start time</label>
+                                    <input type="text" maxlength="128" name="monday-start" id="monday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Mondays?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Monday end time</label>
+                                    <input type="text" maxlength="128" name="monday-end" id="monday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Mondays?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Tuesday start time</label>
+                                    <input type="text" maxlength="128" name="tuesday-start" id="tuesday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Tuesdays?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Tuesday end time</label>
+                                    <input type="text" maxlength="128" name="tuesday-end" id="tuesday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Tuesday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Wednesday start time</label>
+                                    <input type="text" maxlength="128" name="wednesday-start" id="wednesday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Wednesday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Wednesday end time</label>
+                                    <input type="text" maxlength="128" name="wednesday-end" id="wednesday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Wednesday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Thursday start time</label>
+                                    <input type="text" maxlength="128" name="thursday-start" id="thursday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Thursday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Thursday end time</label>
+                                    <input type="text" maxlength="128" name="thursday-end" id="thursday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Thursday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Friday start time</label>
+                                    <input type="text" maxlength="128" name="friday-start" id="friday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Thursday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Friday end time</label>
+                                    <input type="text" maxlength="128" name="friday-end" id="friday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Friday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Saturday start time</label>
+                                    <input type="text" maxlength="128" name="saturday-start" id="saturday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Saturday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Saturday end time</label>
+                                    <input type="text" maxlength="128" name="saturday-end" id="saturday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Saturday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Sunday start time</label>
+                                    <input type="text" maxlength="128" name="sunday-start" id="sunday-start" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program start on Sunday?
+                                    </div>
+                                </div>
+
+                                <div class="form-item form-option" id="edit-organization-wrapper">
+                                    <label for="edit-menu-link-title">Sunday end time</label>
+                                    <input type="text" maxlength="128" name="sunday-end" id="sunday-end" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        When does the program end on Sunday?
+                                    </div>
+                                </div>
+
+                            </div>
+                        </fieldset>
+
+
+
+                        <fieldset class="locationContainer fieldset titled collapsible collapsed tao-processed">
+                            <legend><span class="fieldset-title"><a href="#fieldset" class="active">Location</a></span></legend>
+                            <div class="fieldset-content map-fieldset clear-block ">
+                                <div class="inline-button-form-item form-item form-option" id="edit-revision-wrapper">
+                                    <label for="edit-menu-link-title">Building Street Address</label>
+                                    <input type="text" maxlength="128" name="address" id="address" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What is the street address of the building that the social service resides in? e.g. 85 2nd St, San Francisco, CA
+                                    </div>
+                                </div>
+                                <ul id="address-list" class="optionsMenu address-list" data-role="listview" data-inset="true" data-theme="c"></ul>
+                                <div class="inline-button-form-item form-item form-option" id="map-wrapper">
+                                    <label for="edit-menu-link-title">Drag To Pinpoint Location</label>
+                                    <div id="mapContainer"></div>
+                                    <div class="crosshair">
+                                        <div class="top"></div>
+                                        <div class="right"></div>
+                                        <div class="left"></div>
+                                        <div class="bottom"></div>
+                                    </div>
+                                    <div class="description">
+                                        Pinpoint the location as accurately as possible by dragging the map
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>                        
+
+
+
+                        <fieldset class="fieldset titled collapsible collapsed tao-processed">
+                            <legend><span class="fieldset-title"><a href="#fieldset" class="active">Contact Information</a></span></legend>
+                            <div class="fieldset-content map-fieldset clear-block ">
+                                <div class="form-item form-item-labeled" id="edit-phone-wrapper">
+                                    <label for="edit-menu-link-title">Phone Number</label>
+                                    <input type="text" maxlength="128" name="phone" id="phone" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What is the phone number for the front desk/main point of contact of this organization?
+                                    </div>
+                                </div>
+                                <div class="form-item form-item-labeled" id="edit-hours-wrapper">
+                                    <label for="edit-menu-link-title">Hours of Operation</label>
+                                    <input type="text" maxlength="128" name="hours" id="hours" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What days and hours is this organization open and available?
+                                    </div>
+                                </div>
+                                <div class="form-item form-item-labeled" id="edit-website-wrapper">
+                                    <label for="edit-menu-link-title">Website</label>
+                                    <input type="text" maxlength="128" name="website" id="website" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        What is the website address for this organization?
+                                    </div>
+                                </div>
+                                <div class="form-item form-item-labeled" id="edit-source-wrapper">
+                                    <label for="edit-menu-link-title">Data Source</label>
+                                    <input type="text" maxlength="128" name="source" id="source" value="" class="form-text fluid persist"/>
+                                    <div class="description">
+                                        Who should be credited for submitting this information? It is okay to list your own name (Note: this information will be public)
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+
+
+
+
+
+
+
                     <div class="buttons">
                       <input type="submit" name="op" id="edit-submit-1" value="Submit" class="form-submit"/>
                     </div>
