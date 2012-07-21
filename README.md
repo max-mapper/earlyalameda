@@ -2,7 +2,7 @@
 
 ## Early Childhood Resources for Alameda County
 
-This is an instance of the [http://github.com/open211/redirectory](Open211) platform.
+This is an instance of the [Open211](http://github.com/open211/redirectory) platform.
 
 Installation
 ------------
