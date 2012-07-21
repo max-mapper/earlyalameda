@@ -130,10 +130,9 @@ var mapUtil = function() {
         url: config.baseURL + "api/" + resource,
         dataType: 'json',
         dataFilter: function(data) {
-          var json = JSON.parse(data);
-          util.cacheView(resource, json);
-          var docs = _.map(json.rows, function(item) { return item.value; });
-          return JSON.stringify({ docs: docs });
+          var json = JSON.parse(data)
+          util.cacheView(resource, json)
+          return data
         }
       };
       return $.ajax(ajaxOpts).promise();

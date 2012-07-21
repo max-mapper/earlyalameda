@@ -72,7 +72,7 @@ app.after = {
       util.scrollDown($('#content_wrapper'));
     });
   },
-  cities: function(route) {
+  map: function(route) {
     util.render('showbarItems', 'showbarItems', {count: util.bucket.everything().length});
 
     app.map = mapUtil.createMap({
@@ -87,7 +87,7 @@ app.after = {
      app.map
        .fetchResource('categories')
        .then(function(data) {
-         util.render('cityDropdown', 'showbar', {data: {options: data.docs}, append: true});
+         util.render('dropdown', 'showbar', {data: {options: data.docs}, append: true});
          $("#filter_select_1").sSelect();
          var filter = {
            "query_string" : {

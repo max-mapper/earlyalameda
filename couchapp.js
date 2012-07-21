@@ -10,9 +10,21 @@ ddoc.spatial = {};
 ddoc.views = {
   "categories": {
     map: function(doc) {
-      if (!doc.catgories || !doc.type || doc.type !== "program") return false;
-      doc.categories.forEach(function(category) {
-        emit(category)
+      if (!doc.categories) return false;
+      if (!doc.type) return false;
+      if (doc.type !== "program") return false;
+      doc.categories.map(function(category) {
+        emit(category, 1)
+      })
+    }
+  },
+  "byCategory": {
+    map: function(doc) {
+      if (!doc.categories) return false;
+      if (!doc.type) return false;
+      if (doc.type !== "program") return false;
+      doc.categories.map(function(category) {
+        emit(category, doc)
       })
     }
   }
