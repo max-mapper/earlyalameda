@@ -53,7 +53,7 @@ app.handler = function(route) {
 
 app.after = {
   home: function() {
-    app.map = mapUtil.createMap({scrollWheelZoom: false, dragging: false, zoomControl: false});
+    // app.map = mapUtil.createMap({scrollWheelZoom: false, dragging: false, zoomControl: false});
     // 
     // app.map
     //   .fetchResource('cities')
