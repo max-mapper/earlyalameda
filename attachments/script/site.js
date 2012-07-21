@@ -54,19 +54,19 @@ app.handler = function(route) {
 app.after = {
   home: function() {
     app.map = mapUtil.createMap({scrollWheelZoom: false, dragging: false, zoomControl: false});
-
-    app.map
-      .fetchResource('cities')
-      .then(function(data) {
-        util.render('newCities', 'newCities', {options: data.docs});
-        $.each(data.docs, function(i, city) {
-          app.map.showPoint({
-            type: "Feature",
-            geometry: city.geometry,
-            properties: city
-          });
-        });
-      });
+    // 
+    // app.map
+    //   .fetchResource('cities')
+    //   .then(function(data) {
+    //     util.render('newCities', 'newCities', {options: data.docs});
+    //     $.each(data.docs, function(i, city) {
+    //       app.map.showPoint({
+    //         type: "Feature",
+    //         geometry: city.geometry,
+    //         properties: city
+    //       });
+    //     });
+    //   });
 
     $('#learnMore').click(function() {
       util.scrollDown($('#content_wrapper'));
@@ -85,7 +85,7 @@ app.after = {
          $("input[placeholder]").enablePlaceholder();
 
      app.map
-       .fetchResource('cities')
+       .fetchResource('categories')
        .then(function(data) {
          util.render('cityDropdown', 'showbar', {data: {options: data.docs}, append: true});
          $("#filter_select_1").sSelect();

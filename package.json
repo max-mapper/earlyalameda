@@ -1,9 +1,19 @@
 {
   "name": "earlyalameda",
-  "version": "0.0.1",
+  "version": "0.0.1-5",
+  "subdomain": "earlyalameda",
+  "domains": [
+    "earlyalameda.com"
+  ],
   "dependencies": {
     "tako": "0.3.0",
-    "rewriter": "0.0.10",
+    "rewriter": "0.0.11",
     "logref": "0.2.1"
+  },
+  "scripts": {
+    "start": "index.js"
+  },
+  "engines": {
+    "node": "0.6.x"
   }
 }

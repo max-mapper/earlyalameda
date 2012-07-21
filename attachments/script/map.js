@@ -98,6 +98,7 @@ var mapUtil = function() {
     function showDataset(name) {
       var bbox = getBB();
       showLoader();
+      console.log('querying', config.baseURL + "api/" + name + "/geo")
       $.ajax({
         url: config.baseURL + "api/" + name + "/geo",
         dataType: 'jsonp',
