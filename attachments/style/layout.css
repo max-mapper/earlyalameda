@@ -152,9 +152,10 @@ body {background:#fff url('images/body_bg.png') scroll repeat-x 0 0;font:13px/17
 #main {padding:0 10px;}
 #main_content {min-height:500px}
 #header_content, #main_content, #footer_content {width:960px;margin:0 auto;}
-#header_content {height: 100px}
-#logo {width:320px;height:55px;background:transparent url('images/logo.png') scroll no-repeat 0 0;display:block;text-indent:-999em;margin:10px 0;}
+#header_content {height: 450px;}
+#logo {width:451px;height:385px;background:transparent url('/images/logo.png') scroll no-repeat 0 0;display:block;text-indent:-999em;margin:10px auto 40px auto;}
 #header_nav {margin-bottom:17px;position:relative;}
+#main_nav { margin: 0 auto; }
 #main_nav li {float:left;margin-right:17px;font-size:16px;}
 #main_nav li a {color:#495b5b;}
 #main_nav li a:hover {color:#888;text-decoration:none;}
