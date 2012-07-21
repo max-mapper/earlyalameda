@@ -1,0 +1,9 @@
+{
+  "name": "earlyalameda",
+  "version": "0.0.1",
+  "dependencies": {
+    "tako": "0.3.0",
+    "rewriter": "0.0.10",
+    "logref": "0.2.1"
+  }
+}
