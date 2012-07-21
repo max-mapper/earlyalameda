@@ -56,7 +56,7 @@
                   <li><a href="#cities">Map</a></li>
                   <li><a href="#phone">SMS</a></li>
                   <li><a href="#getinvolved">Get Involved</a></li>
-                  <li><a href="#upload">Add/Edit Organization</a></li>
+                  <li><a href="#login">Add/Edit Organization</a></li>
                   <li><a href="#developers">Developers</a></li>
               </ul>
               </nav>
@@ -84,7 +84,7 @@
           <h4>Getting Involved</h4>
           <p>Getting involved is easy &ndash; first check and see if your city is participating by viewing our list of <a href="#cities">active cities</a>.
           </p>
-          <p>If your city is listed you can <a href="#upload">tell us about</a> services in your area so that we can add them to the directory. If your city isn't yet active you can learn how to <a href="#getinvolved">get your city listed in Redirectory</a></p>
+          <p>If your city is listed you can <a href="#login">tell us about</a> services in your area so that we can add them to the directory. If your city isn't yet active you can learn how to <a href="#getinvolved">get your city listed in Redirectory</a></p>
         </div>
         <div class="clear"></div>
         <nav id="footer_nav" class="grid_5 alpha">
@@ -93,7 +93,7 @@
             <li><a href="#cities">Map</a></li>
             <li><a href="#phone">SMS</a></li>
             <li><a href="#getinvolved">Get Involved</a></li>
-            <li><a href="#upload">Add/Edit Organization</a></li>
+            <li><a href="#login">Add/Edit Organization</a></li>
             <li><a href="#developers">Developers</a></li>
             <li><a href="#terms">Terms of Use</a></li>
           </ul>
@@ -127,7 +127,7 @@
         <h4>What you can do to help:</h4>
         <ol class="icon_list">
           <li>See if Open211 is active in your city <em>(<a href="#cities">view active cities</a>)</em></li>
-          <li>If it is, you can add or edit a social service in your city <em>(see <a href="#upload">see our upload form</a>)</em></li>
+          <li>If it is, you can add or edit a social service in your city <em>(see <a href="#login">see our upload form</a>)</em></li>
           <li>If your city isn't yet active you can learn how to add your city to Redirectory</li>
         </ol>
         <p></p>
@@ -136,7 +136,7 @@
       <div class="grid_4 omega">
         <h5>How it works</h5>
         <ul class="infoList">
-          <li><a href="#upload">Collect</a> contact information for social services and put it all in one place</li>
+          <li><a href="#login">Collect</a> contact information for social services and put it all in one place</li>
           <li>Make that information available for free to anyone through <a href="#phone">text message</a>, mobile phone or website</li>
           <li>Help the social service system work better by providing more accurate information to all</li>
         </ul>
@@ -249,11 +249,11 @@
       <p>We are trying to gather phone numbers, addresses, hours of operation and other details about every social service available in a city. The best way to help is to get the word out about Open211 or to help us gather information:</p>
       <a href="images/open211-notification-flags.pdf"><img id="notification-flag-download" src="images/open211-notification-download.png"></a>
       <ol class="icon_list">
-        <li>Do you have information about social services or programs in your area? <a href="#upload">Tell us</a> about programs in your community.</li>
+        <li>Do you have information about social services or programs in your area? <a href="#login">Tell us</a> about programs in your community.</li>
         <li><a href="images/open211-notification-flags.pdf">Download</a> and print out our notification flags and distribute them to your friends or coworkers.</li>
         <li>Are you a software developer? Learn how you can <a href="#developers">write a script</a> to import data.</li>
         <li>Give us feedback! We are trying to make this a useful tool for both employees of social programs and recipients of services.</li>
-        <li>Show this website to anyone that you know that works at a social program. They can use our <a href="#upload">intake form</a> to give us accurate information about when their social program is open, what the phone number is and other important details.</li>
+        <li>Show this website to anyone that you know that works at a social program. They can use our <a href="#login">intake form</a> to give us accurate information about when their social program is open, what the phone number is and other important details.</li>
       </ol>
       <a href="images/open211-notification-flags.pdf" id="submit_report_bt" class="png_bg">View and download the full PDF!</a>
     </div>
@@ -336,6 +336,11 @@
       </ul>
       <p>The Redirectory team reserves the right to edit or delete any content for any reason we deem appropriate. We reserve the right to disable the account of any user who repeatedly violates the terms of use. Participation in the content of this site is at your own risk. By submitting content or responding to a comment, you agree to be bound by these terms and agree that Redirectory retains the right to edit or remove any content.</p>
     </div>
+  </script>
+
+  <script id="loginTemplate" type="text/mustache">
+      <h4 class="nmt">Login with an organization Facebook account to add or edit your organization data</h4>
+      <a href="#bulkUpload" id="submit_report_bt" class="">Login with Facebook</a>
   </script>
   
   <script id="uploadTemplate" type="text/mustache">
