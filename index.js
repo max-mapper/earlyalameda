@@ -14,6 +14,7 @@ var tako = require('tako')
       , {"from":"/api/categories", "to": "/_view/categories"}
       , {"from":"/api", "to":"/"}
       , {"from":"/api/*", "to":"/*"}
+      , {"from":"/es", "to":"index_es.html"},
       , {"from":"/*", "to":'*'}
     ]
   ;
