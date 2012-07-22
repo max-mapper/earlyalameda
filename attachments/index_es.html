@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
   <meta charset="utf-8"/>
-  <title>Early Alameda Social Services Directory</title>
+  <title>Early Alameda guía de servicios sociales</title>
   <link rel="stylesheet" href="style/css3buttons.css" media="screen" />
   <link href="style/layout.css" rel="stylesheet" type="text/css" />
   <link rel="stylesheet" href="style/leaflet.css" />
@@ -49,12 +49,12 @@
               <div id="logo"></div>
               <nav id="header_nav" class="clearfix">
               <ul id="main_nav" class="alpha">
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#map">Map</a></li>
+                  <li><a href="#home">Inicio</a></li>
+                  <li><a href="#map">Mapa</a></li>
                   <!--<li><a href="#phone">SMS</a></li>-->
                   <!--<li><a href="#getinvolved">Get Involved</a></li>-->
-                  <li><a href="#login">Add/Edit Organization</a></li>
-                  <li><a href="index_es.html">Español</a></li>
+                  <li><a href="#login">Agregar/Redactar</a></li>
+                  <li><a href="/">English</a></li>
                   <!--<li><a href="#developers">Developers</a></li>-->
               </ul>
               </nav>
@@ -68,12 +68,20 @@
       <div id="footer_highlight"></div>
       <div id="footer_content">
         <div class="grid_4 alpha">
-          <h4>About</h4>
-          <p>Early Alameda is a free community run project that came from the Code for Oakland 2012 hackathon. Its goal is to provide the parents of East Oakland with a reliable, inclusive list of early childhood development resources. This site aims to help parents connect their kids with developmental programs to ensure their readiness for school from day one.</p> 
+          <h4>Información</h4>
+          <!-- TRANSLATION SPANISH -->
+          <p>
+            Early Alameda es un proyecto comunitario creado mediante Code for Oakland 2012, 
+            como parte de su maratón de programación (hackathon). Su reto es proveerles a los padres de familia
+            de East Oakland una guía confiable y completa de recursos para el desarrollo de sus
+            niños durante su infancia temprana. Este sitio existe para ayudarles a los papás a 
+            encontrar programas educacionales que aseguren una buena preparación para la escuela.
+          </p>
           <br/>
         </div>
         <div class="grid_4">
-          <h4>Contact us</h4>
+          <!-- TRANSLATION SPANISH -->
+          <h4>Contáctenos</h4>
           <p>First 5 Alameda County</p>
           <p>1100 San Leandro Blvd. Suite 120</p>
           <p>San Leandro, CA 94577</p>
@@ -91,19 +99,33 @@
   <script id="homeTemplate" type="text/mustache">
     <div id="mapContainer" class="cta mapContainer">
       <div class="info grid_4" style="z-index:666;">
-        <h1>Community powered early childhood resource guide</h1>
-        <h2>The comprehensive online tool for finding child development programs in Alameda County.</h2>
+        <h1>Guía comunitaria de recursos para la infancia temprana</h1>
+        <h2>El directorio completo de programas para la infancia temprana en el condado de Alameda</h2>
       </div>
-      <a href="#" id="learnMore" class="cta grid_4" style="position:absolute;top:230px;left:20px;z-index:666; color: #FFF">Learn more &raquo;</a>
+      <a href="#" id="learnMore" class="cta grid_4" style="position:absolute;top:230px;left:20px;z-index:666; color: #FFF">Más &raquo;</a>
     </div>
     <div id="content_wrapper" class="npt clearfix">
       <div class="grid_8 alpha">
-        <h2>Welcome to Early Alameda</h2>
-        <!--<h6 style="margin-bottom: 5px"><strong>Notice:</strong> This project is still being worked on and tested! Keep up to date <a href="http://github.com/open211/redirectory">here</a></h6>-->
-        <h5 class="intro a">Early Alameda is a free and open directory for parents to find early childhood development programs.</h5>
-        <p>It's  oftentimes difficult for parents to obtain information on child development programs. Well, worry no more! This website is an interactive repository of programs searchable by the location, cost, age groups, language, and program hours. All of these data are presented on a single webpage for your ease and convenience.</p>
-        <p>By creating a directory of resources we can help both the staff of social programs and those that they are serving to be more informed when searching for the correct social services.</p>
-        <p>You can help build a rich directory of information about resources available in your community. earlyalameda.com makes that information searchable by internet, mobile browser, and <a href="#phone">SMS</a>.</p>
+        <h2>Bienvenidos a Early Alameda</h2>
+        <!--<h6 style="margin-bottom: 5px"><strong>Advertencia:</strong> ¡Este proyecto sigue bajo construcción! Siga el proceso <a href="http://github.com/open211/redirectory">aquí</a></h6>-->
+        <h5 class="intro a">
+          Early Alameda es una guía gratuita y abierta de programas para el desarrollo de niños en la infancia temprana.
+        </h5>
+        <p>
+          Suele ser difícil para los papás encontrar información sobre programas de desarrollo para niños
+          en la infancia temprana. ¡Despreocúpese! Este sitio es un directorio interactivo, organizado por
+          criterios de ubicación, costo, edad, idioma, y los horarios de los programas. Todos estos datos
+          se recopilan aquí por medio de esta página, para que sean más fáciles de usar.
+          </p>
+          <p>
+          Al crear este directorio también esperamos ayudarle al personal de los mismos programas, y
+          a la comunidad que sirve, informarse bien a la hora de buscar servicios sociales.
+          </p>
+          <p>
+          Usted también puede ayudarnos a crear este directorio, aportando detalles sobre recursos disponibles 
+          en su comunidad. earlyalameda.com los hará disponibles por medio de internet, navegadores móbiles,
+          y <a href="#phone">textos</a>.
+          </p>
         <img src="images/network.png"/>
         <!--
         <h4>What you can do to help:</h4>
@@ -310,7 +332,11 @@
   </script>
 
   <script id="loginTemplate" type="text/mustache">
-      <h4 class="nmt">Get Involved!</h4>
+    <h4 class="nmt">¡Participe!</h4>
+    <h6>
+      Por el momento la principal colaboración en la base de datos será en inglés, siga las siguientes instrucciones
+      o contáctenos para aclarar cualquier duda.
+    </h6>
       <p>Calling all child program providers! Here's an opportunity for you to share your program information with the community.</p>
       <p>All you have to do is follow these simple steps:</p>
       <p>1. Follow the link below, and create a Facebook page.</p>
